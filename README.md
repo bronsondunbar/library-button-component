@@ -11,4 +11,4 @@ Button component for React
 | buttonSymbol            | none    | Font Awesome class                                 |
 | handleClick       | none   | handleClick function         |
 | handleHoverOver | none    | handleHoverOver function               |
-| handleHoverExit    | left    | handleHoverExit function |
+| handleHoverExit    | none    | handleHoverExit function |
