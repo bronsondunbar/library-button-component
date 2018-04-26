@@ -12,3 +12,13 @@ Button component for React
 | handleClick     | none    | handleClick function                    |
 | handleHoverOver | none    | handleHoverOver function                |
 | handleHoverExit | none    | handleHoverExit function                |
+
+```
+<ButtonComponent
+  buttonCategory="default"
+  buttonSize="default"
+  buttonText="Default"
+  handleClick={this.handleClick.bind(this)}
+  handleHoverOver={this.handleHoverOver.bind(this)}
+  handleHoverExit={this.handleHoverExit.bind(this)} />
+```
