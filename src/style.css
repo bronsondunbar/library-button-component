@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7130,6 +7131,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 /*# sourceMappingURL=bootstrap.css.map */
 /* Colors */
+/* Messages */
+/* Shadows */
+/* Fonts */
 /* Screen sizes */
 /* Buttons */
 .btn {
@@ -7137,41 +7141,52 @@ a.text-dark:hover, a.text-dark:focus {
   .btn i, .btn svg {
     margin: 0 5px; }
 
-.btn-group .btn-default {
-  background: #ffffff;
-  border: 1px solid #262626;
-  color: #262626;
-  min-width: 1px;
-  transition: all 0.3s; }
-  .btn-group .btn-default:hover, .btn-group .btn-default:focus {
-    background: #ffd100;
-    color: #262626; }
-
-.btn-group .active {
-  background: #ffd100;
-  color: #262626; }
-
 .btn-default {
   border: none;
-  background: #ffd100;
-  color: #262626;
-  transition: all 0.3s; }
+  background: #e22d5d;
+  color: #ffffff;
+  transition: all 0.3s;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
   .btn-default:hover, .btn-default:focus {
-    background: #262626;
-    color: #ffffff; }
+    background: #c11b47;
+    box-shadow: none; }
 
 .btn-primary {
   border: none;
-  background: #262626;
+  background: #2bbde0;
   color: #ffffff;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
   .btn-primary:hover, .btn-primary:focus {
-    background: #ffd100;
-    color: #262626; }
+    background: #1c9dbc;
+    box-shadow: none; }
 
 .btn-success {
   border: none;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
+  .btn-success:hover, .btn-success:focus {
+    box-shadow: none; }
+
+.btn-danger {
+  border: none;
+  background: #f56e57;
+  color: #ffffff;
+  transition: all 0.3s;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
+  .btn-danger:hover, .btn-danger:focus {
+    background: #f24427;
+    box-shadow: none; }
+
+.btn-info {
+  border: none;
+  background: #2bbde0;
+  color: #ffffff;
+  transition: all 0.3s;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
+  .btn-info:hover, .btn-info:focus {
+    background: #1c9dbc;
+    box-shadow: none; }
 
 body {
   font-family: Arial, 'Sans Serif'; }
