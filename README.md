@@ -8,10 +8,12 @@ Button component for React
 | buttonCategory  | default | default, primary, success, danger, info |
 | buttonSize      | none    | large                                   |
 | buttonText      | Button  | String for button text                  |
-| buttonSymbol    | none    | Font Awesome class                      |
+| buttonSymbol    | none    | * Font Awesome class                    |
 | handleClick     | none    | handleClick function                    |
 | handleHoverOver | none    | handleHoverOver function                |
 | handleHoverExit | none    | handleHoverExit function                |
+
+* Font Awesome needs to included in project for symbols to display
 
 ```
 <ButtonComponent
