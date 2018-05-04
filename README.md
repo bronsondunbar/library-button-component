@@ -3,6 +3,10 @@
 
 Button component for React
 
+```
+npm install --save library-button-component
+```
+
 | Prop            | Default | Values                                  |
 | :-------------- |:------- | :-------------------------------------- |
 | buttonCategory  | default | default, primary, success, danger, info |
