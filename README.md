@@ -21,44 +21,44 @@ npm install --save library-button-component
 
 ```
 constructor(props) {
-  	super(props)
+	super(props)
 
-  	this.state = {
-  		buttonAction: '',
-  		buttonCode: '',
-  		buttonText: ''
-  	}
+	this.state = {
+		buttonAction: '',
+		buttonCode: '',
+		buttonText: ''
 	}
+}
 
-	handleClick(event) {
-  	this.setState ({
-  		buttonAction: 'Click'
-  	});
-	}
+handleClick(event) {
+	this.setState ({
+		buttonAction: 'Click'
+	});
+}
 
-	handleHoverOver(event) {
-		this.setState ({
-			buttonAction: 'Hover',
-  		buttonCode: event.target.innerHTML,
-  		buttonText: event.target.textContent
-  	});
+handleHoverOver(event) {
+	this.setState ({
+		buttonAction: 'Hover',
+		buttonCode: event.target.innerHTML,
+		buttonText: event.target.textContent
+	});
 
-  	event.target.innerHTML = "Hovering..."
-	}
+	event.target.innerHTML = "Hovering..."
+}
 
-	handleHoverExit(event) {
-		event.target.innerHTML = this.state.buttonCode;
-	}
+handleHoverExit(event) {
+	event.target.innerHTML = this.state.buttonCode;
+}
 
-	render () {
-		return (
-			<ButtonComponent
-			  buttonCategory="default"
-			  buttonSize="default"
-			  buttonText="Default"
-			  handleClick={this.handleClick.bind(this)}
-			  handleHoverOver={this.handleHoverOver.bind(this)}
-			  handleHoverExit={this.handleHoverExit.bind(this)} />
-		)
-	}
+render () {
+	return (
+		<ButtonComponent
+		  buttonCategory="default"
+		  buttonSize="default"
+		  buttonText="Default"
+		  handleClick={this.handleClick.bind(this)}
+		  handleHoverOver={this.handleHoverOver.bind(this)}
+		  handleHoverExit={this.handleHoverExit.bind(this)} />
+	)
+}
 ```
