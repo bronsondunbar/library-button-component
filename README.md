@@ -76,9 +76,9 @@ render () {
 		  buttonCategory="default"
 		  buttonSize="default"
 		  buttonText="Default"
-		  handleClick={this.handleButtonClick.bind(this)}
-		  handleHoverOver={this.handleButtonHoverOver.bind(this)}
-		  handleHoverExit={this.handleButtonHoverExit.bind(this)} />
+		  handleButtonClick={this.handleButtonClick.bind(this)}
+		  handleButtonHoverOver={this.handleButtonHoverOver.bind(this)}
+		  handleButtonHoverExit={this.handleButtonHoverExit.bind(this)} />
 	)
 }
 

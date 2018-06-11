@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import './style.css';
 
-const ButtonComponent = ({ buttonCategory, buttonSize, buttonSymbol, buttonText, handleClick, handleHoverOver, handleHoverExit }) => {
+const ButtonComponent = ({ buttonCategory, buttonSize, buttonSymbol, buttonText, handleButtonClick, handleButtonHoverOver, handleButtonHoverExit }) => {
 
   let btnClass = classNames({
     btn: true,
@@ -19,9 +19,9 @@ const ButtonComponent = ({ buttonCategory, buttonSize, buttonSymbol, buttonText,
     <div>
       <button
         className={btnClass}
-        onClick={!handleClick ? null  : (event) => handleClick(event)}
-        onMouseEnter={!handleHoverOver ? null : (event) => handleHoverOver(event)}
-        onMouseLeave={!handleHoverExit ? null : (event) => handleHoverExit(event)} >
+        onClick={!handleButtonClick ? null  : (event) => handleButtonClick(event)}
+        onMouseEnter={!handleButtonHoverOver ? null : (event) => handleButtonHoverOver(event)}
+        onMouseLeave={!handleButtonHoverExit ? null : (event) => handleButtonHoverExit(event)} >
           <i className={buttonSymbol}></i> {!buttonText ? "Button" : buttonText}
       </button>
     </div>
