@@ -1,6 +1,6 @@
 {
   "name": "library-button-component",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Button component for React",
   "main": "./lib/Button.js",
   "license": "MIT",

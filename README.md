@@ -38,7 +38,7 @@ Create the function that will handle mouse click events
 
 ```
 
-handleClick(event) {
+handleButtonClick(event) {
 	this.setState ({
 		buttonAction: 'Click'
 	});
@@ -50,7 +50,7 @@ Create the function that will handle mouse hover enter and exit events
 
 ```
 
-handleHoverOver(event) {
+handleButtonHoverOver(event) {
 	this.setState ({
 		buttonAction: 'Hover',
 		buttonCode: event.target.innerHTML,
@@ -60,7 +60,7 @@ handleHoverOver(event) {
 	event.target.innerHTML = "Hovering..."
 }
 
-handleHoverExit(event) {
+handleButtonHoverExit(event) {
 	event.target.innerHTML = this.state.buttonCode;
 }
 
@@ -76,22 +76,22 @@ render () {
 		  buttonCategory="default"
 		  buttonSize="default"
 		  buttonText="Default"
-		  handleClick={this.handleClick.bind(this)}
-		  handleHoverOver={this.handleHoverOver.bind(this)}
-		  handleHoverExit={this.handleHoverExit.bind(this)} />
+		  handleClick={this.handleButtonClick.bind(this)}
+		  handleHoverOver={this.handleButtonHoverOver.bind(this)}
+		  handleHoverExit={this.handleButtonHoverExit.bind(this)} />
 	)
 }
 
 ```
 
-| Prop            | Values                                  |
-| :-------------- | :-------------------------------------- |
-| buttonCategory  | default, primary, success, danger, info |
-| buttonSize      | large                                   |
-| buttonText      | String                                  |
-| buttonSymbol    | * Font Awesome class                    |
-| handleClick     | handleClick function                    |
-| handleHoverOver | handleHoverOver function                |
-| handleHoverExit | handleHoverExit function                |
+| Prop                  | Values                                  |
+| :-------------------- | :-------------------------------------- |
+| buttonCategory        | default, primary, success, danger, info |
+| buttonSize            | large                                   |
+| buttonText            | String                                  |
+| buttonSymbol          | * Font Awesome class                    |
+| handleButtonClick     | handleButtonClick function              |
+| handleButtonHoverOver | handleButtonHoverOver function          |
+| handleButtonHoverExit | handleButtonHoverExit function          |
 
 * Font Awesome needs to included in project for symbols to display
