@@ -7145,8 +7145,7 @@ a.text-dark:hover, a.text-dark:focus {
   border: none;
   background: #e22d5d;
   color: #ffffff;
-  transition: all 0.3s;
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
+  transition: all 0.3s; }
   .btn-default:hover, .btn-default:focus {
     background: #c11b47;
     box-shadow: none; }
@@ -7155,16 +7154,14 @@ a.text-dark:hover, a.text-dark:focus {
   border: none;
   background: #2bbde0;
   color: #ffffff;
-  transition: all 0.3s;
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
+  transition: all 0.3s; }
   .btn-primary:hover, .btn-primary:focus {
     background: #1c9dbc;
     box-shadow: none; }
 
 .btn-success {
   border: none;
-  transition: all 0.3s;
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
+  transition: all 0.3s; }
   .btn-success:hover, .btn-success:focus {
     box-shadow: none; }
 
@@ -7172,8 +7169,7 @@ a.text-dark:hover, a.text-dark:focus {
   border: none;
   background: #f56e57;
   color: #ffffff;
-  transition: all 0.3s;
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
+  transition: all 0.3s; }
   .btn-danger:hover, .btn-danger:focus {
     background: #f24427;
     box-shadow: none; }
@@ -7182,8 +7178,7 @@ a.text-dark:hover, a.text-dark:focus {
   border: none;
   background: #2bbde0;
   color: #ffffff;
-  transition: all 0.3s;
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.22); }
+  transition: all 0.3s; }
   .btn-info:hover, .btn-info:focus {
     background: #1c9dbc;
     box-shadow: none; }
